@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import Directors, Actors, Movies
 
-# Register your models here.
+admin.site.register(Movies)
+admin.site.register(Directors)
+admin.site.register(Actors)
